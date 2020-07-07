@@ -1,27 +1,8 @@
-# Custom Build Example
+# FutScrap versión 0.1.0
 
-This directory is a brief example of using a Custom Build script that can be deployed with Vercel and zero configuration.
+API Rest para mediante Web Scraping obtener historial de enfrentamientos entre equipos de Argentina. Realizada en NodeJS con Cheerio.
 
-## Deploy Your Own
+## Instrucciones y explicaciones
 
-Deploy your own Custom Built project with Vercel.
+Pueden encontrar una completa explicación de la aplicación en mi [página de Medium](https://medium.com/@gonzacoding/web-scraping-futbolero-con-react-node-express-cheerio-y-deploy-en-vercel-parte-1-c31865716e80)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/import/project?template=https://github.com/vercel/vercel/tree/master/examples/custom-build)
-
-_Live Example: https://custom-build.now-examples.now.sh_
-
-### How We Created This Example
-
-To get started deploying a Custom Built project with Vercel, you can use the [Vercel CLI](https://vercel.com/download) to initialize the project:
-
-```shell
-$ vercel init custom-build
-```
-
-### Deploying From Your Terminal
-
-You can deploy your new Custom Built project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
-
-```shell
-$ vercel
-```
