@@ -37,13 +37,17 @@ module.exports = {
                             
                 let history = $('#historial tbody tr');
                 history.each(function(i,el){
-                    let teamName = $(this).children('td').eq(0).text();
-                    teamName = encodeURI(teamName.substring(3,teamName.length));
+                    let name = $(this).children('td').eq(0).text();
+                    name = encodeURI(name.substring(3,name.length));
                     let win = $(this).children('td').eq(3).text();
                     let draw = $(this).children('td').eq(4).text();
                     let loss = $(this).children('td').eq(5).text();
+                    let id = $(this).children('td').eq(6).find('a').attr("href");
+                    id = id.substring(id.indexOf("equipo2=")+8);
+                    console.log(id);
                     responseHistory.push({
-                        teamName,
+                        id,
+                        name,
                         win,
                         draw,
                         loss
