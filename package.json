@@ -3,7 +3,7 @@
     "build": "echo 'FutScrap version 0.1.0' > ./public/index.html"
   },
   "dependencies": {
-    "cheerio": "^1.0.0-rc.3",
+    "cheerio": "^1.0.0-rc.12",
     "express": "^4.17.1",
     "request": "^2.88.2"
   }
